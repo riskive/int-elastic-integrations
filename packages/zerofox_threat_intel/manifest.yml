@@ -1,0 +1,35 @@
+format_version: 3.1.2
+name: zerofox_threat_intel
+title: "ZeroFox Threat Intel"
+version: 0.0.1
+description: "Collect logs from the Zerofox Threat Intel feeds with Elastic Agent"
+type: integration
+categories:
+  - custom
+  - security
+conditions:
+  kibana:
+    version: "^8.12.1"
+  elastic:
+    subscription: "basic"
+screenshots:
+  - src: /img/sample-screenshot.png
+    title: Sample screenshot
+    size: 600x600
+    type: image/png
+icons:
+  - src: /img/foxy-mark.svg
+    title: ZeroFox Logo
+    size: 160x160
+    type: image/svg+xml
+policy_templates:
+  - name: sample
+    title: Sample logs
+    description: Collect sample logs
+    inputs:
+      - type: logfile
+        title: Collect sample logs from instances
+        description: Collecting sample logs
+owner:
+  github: elastic/integrations
+  type: partner
