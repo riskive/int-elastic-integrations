@@ -1,0 +1,29 @@
+- name: zerofox.ip_address
+  type: ip
+  description: IP Address for the botnet record.
+- name: zerofox.listed_at
+  type: date
+  description: When the botnet was ingested into the system.
+- name: zerofox.bot_name
+  type: keyword
+- name: zerofox.c2_ip_address
+  type: ip
+  description: Destination IP address of the botnet record.
+- name: zerofox.c2_domain
+  type: keyword
+  description: Domain of the botnet record.
+- name: zerofox.is_common_domain
+  type: boolean
+  description: Is the C2 Domain common (i.e. found in Majestic Million's top 1M domains list).
+- name: zerofox.country_code
+  type: keyword
+- name: zerofox.operating_system
+  type: keyword
+- name: zerofox.zip_code
+  type: keyword
+- name: zerofox.location
+  type: keyword
+- name: zerofox.current_language
+  type: keyword
+- name: zerofox.tags
+  type: keyword

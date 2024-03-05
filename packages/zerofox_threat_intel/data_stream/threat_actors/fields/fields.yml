@@ -1,0 +1,26 @@
+- name: zerofox.id
+  type: keyword
+  description: Threat actor Id.
+- name: zerofox.mitre_id
+  type: keyword
+  description: Mitre Group Id.
+- name: zerofox.name
+  type: keyword
+- name: zerofox.created_at
+  type: keyword
+- name: zerofox.cert.fingerprint
+  type: date
+- name: zerofox.updated_at
+  type: date
+- name: zerofox.references
+  type: keyword
+- name: zerofox.software
+  type: keyword
+- name: zerofox.associated_groups
+  type: keyword
+- name: zerofox.target_geo
+  type: flattened
+- name: zerofox.target_industries
+  type: flattened
+- name: zerofox.mitre_ttps
+  type: flattened

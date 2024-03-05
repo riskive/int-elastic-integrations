@@ -1,0 +1,19 @@
+- name: zerofox.scanned
+  type: date
+  description: When the phishing data was ingested into the system.
+- name: zerofox.domain
+  type: keyword
+- name: zerofox.url
+  type: keyword
+- name: zerofox.cert.authority
+  type: keyword
+- name: zerofox.cert.fingerprint
+  type: keyword
+- name: zerofox.cert.issued
+  type: keyword
+- name: zerofox.host.ip
+  type: keyword
+- name: zerofox.host.asn
+  type: keyword
+- name: zerofox.host.geo
+  type: keyword
