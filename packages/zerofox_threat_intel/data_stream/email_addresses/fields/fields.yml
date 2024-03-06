@@ -1,0 +1,9 @@
+- name: zerofox.created_at
+  type: date
+  description: When the email address was ingested into the system.
+- name: zerofox.email
+  type: keyword
+- name: zerofox.domain
+  type: keyword
+- name: zerofox.tags
+  type: keyword
